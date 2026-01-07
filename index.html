@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeMovies2031 | Watch Bangla, Hindi & English Movies Online Free</title>
+    
+    <meta name="description" content="Stream and download the latest Bangla, Hindi, and English movies for free on FreeMovies2031. HD quality streaming with fast download links.">
+    <meta name="keywords" content="FreeMovies2031, free movies, bangla movies 2026, download movies, hindi movies online">
+    <meta name="robots" content="index, follow">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "FreeMovies2031",
+      "url": "https://yourusername.github.io/freemovies2031/"
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="container nav-box">
+        <h1 class="logo" onclick="location.href='index.html'">FreeMovies<span>2031</span></h1>
+        <div class="search-area">
+            <input type="text" id="searchInput" placeholder="Search movies by title..." aria-label="Search">
+        </div>
+    </div>
+</header>
+
+<nav class="container filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="Bangla">Bangla</button>
+    <button class="filter-btn" data-filter="English">English</button>
+    <button class="filter-btn" data-filter="Hindi">Hindi</button>
+    <button class="filter-btn" data-filter="Serial">Serial</button>
+    <button class="filter-btn" data-filter="Action">Action</button>
+    <button class="filter-btn" data-filter="Comedy">Comedy</button>
+</nav>
+
+<main class="container">
+    <div id="movieGrid" class="movie-grid">
+        </div>
+</main>
+
+<div id="movieModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" id="closeBtn">&times;</span>
+        <div id="modalDetails"></div>
+        
+        <div id="videoArea" class="video-container" style="display:none;"></div>
+
+        <div class="modal-actions">
+            <button id="watchBtn" class="btn btn-watch"><i class="fas fa-play"></i> Watch Now</button>
+            <a id="downloadBtn" href="#" class="btn btn-download" target="_blank" rel="noopener"><i class="fas fa-download"></i> Download</a>
+        </div>
+    </div>
+</div>
+
+<footer class="container">
+    <p>&copy; 2026 FreeMovies2031. Stream HD Movies for Free.</p>
+    <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a> | <a href="#">DMCA</a> | <a href="#">Contact</a>
+    </div>
+</footer>
+
+<script src="movies.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
