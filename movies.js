@@ -1,15 +1,15 @@
 const movies = [
     {
         id: 1,
-        title: "Inception",
-        category: "English",
-        genre: "Thriller",
-        year: "2010",
+        title: "MON MAJHI (মন মাঝি) _ Full Movie _ Shakib Khan _ Puja Cherry _ Bangla New Movie 2025(720P_HD)",
+        category: "Bangla",
+        genre: "Drama",
+        year: "2020",
         rating: "8.8",
         views: 1200,
-        thumbnail: "https://picsum.photos/seed/inception/400/600",
-        videoUrl: "https://drive.google.com/file/d/1_RUdR2M39nwpqBc3qehvSmnp4rUdK13j/preview", // Replace with GDrive Embed Link
-        downloadUrl: "https://drive.google.com/uc?export=download&id=1_RUdR2M39nwpqBc3qehvSmnp4rUdK13j"
+        thumbnail: "https://drive.google.com/file/d/1G1cegCi-ZTwcvG_keumN-6Wpia1KzvPC/view?usp=sharing",
+        videoUrl: "https://drive.google.com/file/d/1-UbksDPj86PjtDL716X7kpvfkTxCCP90/preview", // Replace with GDrive Embed Link
+        downloadUrl: "https://drive.google.com/uc?export=download&id=1-UbksDPj86PjtDL716X7kpvfkTxCCP90"
     },
     {
         id: 2,
@@ -73,3 +73,4 @@ const movies = [
     }
 
 ];
+
