@@ -8,8 +8,8 @@ const movies = [
         rating: "8.8",
         views: 1200,
         thumbnail: "https://picsum.photos/seed/inception/400/600",
-        videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with GDrive Embed Link
-        downloadUrl: "#"
+        videoUrl: "https://drive.google.com/file/d/1_RUdR2M39nwpqBc3qehvSmnp4rUdK13j/preview", // Replace with GDrive Embed Link
+        downloadUrl: "https://drive.google.com/uc?export=download&id=1_RUdR2M39nwpqBc3qehvSmnp4rUdK13j"
     },
     {
         id: 2,
@@ -71,4 +71,5 @@ const movies = [
         videoUrl: "",
         downloadUrl: "#"
     }
+
 ];
