@@ -7,7 +7,7 @@ const movies = [
         year: "2020",
         rating: "8.8",
         views: 1200,
-        thumbnail: "https://drive.google.com/file/d/1G1cegCi-ZTwcvG_keumN-6Wpia1KzvPC/preview",
+        thumbnail: "https://drive.google.com/uc?export=view&id=1G1cegCi-ZTwcvG_keumN-6Wpia1KzvPC",
         videoUrl: "https://drive.google.com/file/d/1-UbksDPj86PjtDL716X7kpvfkTxCCP90/preview", // Replace with GDrive Embed Link
         downloadUrl: "https://drive.google.com/uc?export=download&id=1-UbksDPj86PjtDL716X7kpvfkTxCCP90"
     },
@@ -67,4 +67,5 @@ const movies = [
     }
 
 ];
+
 
