@@ -1,9 +1,15 @@
 const movies = [
     {
-        id: 1, title: "Hawa", category: "Bangla", genre: "Thriller", year: "2022", rating: "8.1", views: 4500,
-        thumbnail: "https://picsum.photos/seed/hawa/400/600",
-        videoUrl: "https://drive.google.com/file/d/1_RUdR2M39nwpqBc3qehvSmnp4rUdK13j/preview",
-        downloadUrl: "https://drive.google.com/uc?export=download&id=1_RUdR2M39nwpqBc3qehvSmnp4rUdK13j"
+        id: 1,
+        title: "MON MAJHI (মন মাঝি) _ Full Movie _ Shakib Khan _ Puja Cherry _ Bangla New Movie 2025(720P_HD)",
+        category: "Bangla",
+        genre: "Drama",
+        year: "2020",
+        rating: "8.8",
+        views: 1200,
+        thumbnail: "https://drive.google.com/file/d/1G1cegCi-ZTwcvG_keumN-6Wpia1KzvPC/view?usp=sharing",
+        videoUrl: "https://drive.google.com/file/d/1-UbksDPj86PjtDL716X7kpvfkTxCCP90/preview", // Replace with GDrive Embed Link
+        downloadUrl: "https://drive.google.com/uc?export=download&id=1-UbksDPj86PjtDL716X7kpvfkTxCCP90"
     },
     {
         id: 2, title: "Extraction 2", category: "English", genre: "Action", year: "2023", rating: "7.0", views: 12000,
@@ -59,4 +65,5 @@ const movies = [
         videoUrl: "https://drive.google.com/embed?id=14I3ptvai9z3VT2rjTJROPby70a9g4owT",
         downloadUrl: "#"
     }
+
 ];
